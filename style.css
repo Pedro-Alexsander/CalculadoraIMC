@@ -18,9 +18,45 @@ body{
    display: grid;
    justify-content: center;
    align-content: space-around;
-   background-color: rgba(255, 255, 255, 0.9) ;
+   background-color: rgba(140,137,136, 0.95) ;
    width: 400px;
    height: 300px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.border{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.btn{
+    width: 208px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition-property: background-color;
+    transition-duration: 600ms;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    
+
 }
 
 @media screen and ( max-width: 820px)  {
