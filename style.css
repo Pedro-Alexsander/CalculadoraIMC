@@ -3,7 +3,11 @@
     padding: 0;
     font-family:Arial, Helvetica, sans-serif;
 }
-
+body{
+    background-image: url(./imagens/alimentacao.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
 .container{
     display: flex;
     align-items: center;
@@ -14,7 +18,19 @@
    display: grid;
    justify-content: center;
    align-content: space-around;
-   background-color: aquamarine;
+   background-color: rgba(255, 255, 255, 0.9) ;
    width: 400px;
    height: 300px;
+}
+
+@media screen and ( max-width: 820px)  {
+    body{
+        background-image: url(./imagens/alimentacao640.jpg);
+    }
+}
+@media screen and ( max-width: 480px)  {
+    body{
+        background-image: url(./imagens/aa.jpg);
+        background-repeat: repeat;
+    }
 }
