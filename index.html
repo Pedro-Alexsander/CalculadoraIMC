@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
     <title>Calculadora de IMC</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-    <div class="calculadora">
-        <h1> Calculadora IMC</h1>
+      <div class="calculadora">
+        <h1>Calculadora IMC</h1>
         <div class="corpo">
-            <p> Altura</p>
-            <input class="border" type="text" placeholder="Digite sua altura em cm">
-            <p> Peso</p>
-            <input class="border" type="text" placeholder="Digite seu peso em kg">
-            <button class="btn " >Calcular</button>
+          <p>Altura</p>
+          <input
+            id="altura"
+            type="number"
+            class="border"
+            placeholder="Digite sua altura em metros. Ex: 1.67"
+          />
+          <p>Peso</p>
+          <input
+            id="peso"
+            class="border"
+            type="text"
+            placeholder="Digite seu peso em kg. Ex: 68"
+          />
+          <button onclick="imc()" class="btn">Calcular</button>
         </div>
-        <p id="mensagem" >Informe os dados acima</p>
+        <p id="mensagem"></p>
+      </div>
     </div>
-    </div>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
