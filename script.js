@@ -8,7 +8,7 @@ function calc() {
   altura = altura / 100;
 
   let imc = peso / (altura * altura);
-  console.log(imc.toFixed(2));
-  console.log(altura);
+  imc = imc.toFixed(2);
+  console.log(imc);
 }
 
