@@ -11,3 +11,4 @@ function calc() {
   console.log(imc.toFixed(2));
   console.log(altura);
 }
+
