@@ -12,7 +12,21 @@ function calc() {
 
   if (imc < 18.5) {
     let mensagem = (document.getElementById("mensagem").innerHTML = imc);
-    mensagem = imc;
     let classficacao = (document.getElementById("classificacao").innerHTML = "Abaixo do peso")
+  }if(imc >= 18.5 && imc<25 ){
+    let mensagem = (document.getElementById("mensagem").innerHTML = imc);
+    let classficacao = (document.getElementById("classificacao").innerHTML = "Peso normal")
+  }if(imc >= 25 && imc<30 ){
+    let mensagem = (document.getElementById("mensagem").innerHTML = imc);
+    let classficacao = (document.getElementById("classificacao").innerHTML = "Sobrepeso")
+  }if(imc >= 30 && imc<35 ){
+    let mensagem = (document.getElementById("mensagem").innerHTML = imc);
+    let classficacao = (document.getElementById("classificacao").innerHTML = "Obsidade grau I")
+  }if(imc >= 35 && imc<40 ){
+    let mensagem = (document.getElementById("mensagem").innerHTML = imc);
+    let classficacao = (document.getElementById("classificacao").innerHTML = "Obsidade grau II")
+  }if(imc >= 40 ){
+    let mensagem = (document.getElementById("mensagem").innerHTML = imc);
+    let classficacao = (document.getElementById("classificacao").innerHTML = "Obsidade Mórbida")
   }
 }
