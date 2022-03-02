@@ -9,6 +9,10 @@ function calc() {
 
   let imc = peso / (altura * altura);
   imc = imc.toFixed(2);
-  console.log(imc);
-}
 
+  if (imc < 18.5) {
+    let mensagem = (document.getElementById("mensagem").innerHTML = imc);
+    mensagem = imc;
+    let classficacao = (document.getElementById("classificacao").innerHTML = "Abaixo do peso")
+  }
+}

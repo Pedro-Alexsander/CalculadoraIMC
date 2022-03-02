@@ -19,16 +19,23 @@ body{
    justify-content: center;
    align-content: space-around;
    background-color: rgba(140,137,136, 0.95) ;
-   width: 400px;
+   width: 450px;
    height: 350px;
 }
 
 p{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.resultado{
     font-size: 20px;
     font-weight: bold;
     padding: 0;
     margin: 0;
 }
+
 .border{
     display: block;
     margin-top: 10px;
