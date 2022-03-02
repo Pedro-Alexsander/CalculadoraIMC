@@ -30,9 +30,11 @@ p{
     margin: 0;
 }
 #error{
+    display: block;
     font-size: 15px;
     color: red;
     background-color: white;
+    
 }
 .resultado{
     font-size: 20px;
